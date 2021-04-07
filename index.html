@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Formulario</title>
+	<!--estilos-->
+	<link rel="stylesheet" href="css/estilos.css">
+		
+	</style>
+</head>
+<body>
+	<span id="mensaje"></span>
+	<form method="post" action="#" id="formulario">
+	   <fieldset>
+	   	<legend>Formulario de contacto</legend>
+		<ul>
+			<li>
+				<label for="nombre">Nombre</label>
+				<input id="nombre" type="text" placeholder="Nombre" required="true">
+			</li>
+
+			<li>
+				<label for="apellido">Apellido</label>
+				<input id="apellido" type="text" placeholder="Apellido" required="true">
+			</li>
+
+
+
+			<li>
+				<label for="rut">Rut</label>
+				<input id="rut" type="text" placeholder="1111111-1" required="true">
+			</li>
+
+			<li>
+				<label for="email">Correo electronico</label>
+				<input id="email" type="email" placeholder="Correo Electronico" required="true">
+			</li>
+
+			<li>
+				<label for="telefono">Telefono</label>
+				<input id="telefono" type="number" placeholder="Telefono" required="true">
+			</li>
+
+
+
+				<li class = "habilidades"> Selecciona 1 o mas lenguajes de programacion de su interes:
+				<input type="checkbox" value ="python" id="python" name="casilla">
+				<label for="python">Python</label>
+
+				<input type="checkbox" value ="Java" id="java" name="casilla">
+				<label for="java">Java</label>
+
+				<input type="checkbox" value ="TypeScript" id="typescript" name="casilla">
+				<label for="typescript">TypeScript</label>
+
+				<input type="checkbox" value ="PHP" id="php" name="casilla">
+				<label for="php">PHP</label>
+
+				<input type="checkbox" value ="C#" id="c#" name="casilla">
+				<label for="c#">C#</label>
+
+				<input type="checkbox" value ="C++" id="c++" name="casilla">
+				<label for="c++">C++</label>
+
+			</li>
+
+			<li class = "nivel">
+				Seleccione su nivel de programacion: <input type="range" name="niv"> 
+			</li>
+
+
+
+			<li class = "añosExp"> Seleccione anos de experiencia laboral:
+				<input type="radio" value ="1" id="1" name="años" required="true">
+				<label for="1">1</label>
+
+				<input type="radio" value ="2" id="2" name="años">
+				<label for="2">2</label>
+
+				<input type="radio" value ="3" id="3" name="años">
+				<label for="3">3</label>
+
+				<input type="radio" value ="4" id="4" name="años">
+				<label for="4">4</label>
+
+				<input type="radio" value ="5" id="5" name="años">
+				<label for="5">5</label>
+
+			</li>
+
+
+
+		
+			<li>
+				<label class="desc">Escriba una descripcion breve acerca de usted</label>
+				<textarea id="descripcion"></textarea>
+			</li>
+			
+			<li class="button">
+				<button type="submit">Enviar</button>
+			</li>
+
+
+			<li class="button">
+				<button id="limpiar" type="button">Limpiar datos</button>
+			</li>
+
+		</ul>
+	   </fieldset>
+
+	</form>
+
+	
+
+
+<script src="./formulario.js"></script>
+
+
+</body>
+</html>
+

@@ -1,0 +1,68 @@
+form{
+	margin:0px;
+	width: 95%;
+	padding:1em;
+	border:1px solid #ccc;
+}
+
+
+form ul{
+	list-style-type: none;
+	padding:0px;
+	margin:0px;
+}
+
+label{
+	display: inline-block;
+	width:120px;
+	text-align: right;
+}
+
+.añosExp label{
+	width:auto !important;
+}
+
+.añosExp input{
+	width:auto !important;
+}
+
+.habilidades label{
+	width:auto;
+}
+
+.habilidades input{
+	width:auto;
+}
+
+input,select{
+	width: 50%;
+	height: 20px;
+	border:1px solid #999;
+	margin:3px;
+}
+
+textarea{
+	width: 50%;
+	height: 5em;
+}
+
+.button{
+	padding-left: 30%;
+	padding-top: 1%;
+}
+
+button{
+	background-color: blue;
+	color:white;
+	border:0px;
+	padding:10px;
+}
+
+.desc{
+	width: auto;	
+}
+
+
+
+
+
